@@ -24,3 +24,4 @@ for line in file:
     total += all_numbers
 print(f"The sum of all numbers is {total}")
 file.close()
+
