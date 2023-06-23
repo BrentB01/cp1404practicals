@@ -6,6 +6,15 @@ def main():
     largest_number = max(numbers)
     average = sum(numbers) / len(numbers)
     print_information(first_number, last_number, smallest_number, largest_number, average)
+    # Woefully inadequate security checker (Didn't want to refactor this as it could get confusing)
+    usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45', 'BaseInterpreterInterface',
+                 'BaseStdIn', 'Command', 'ExecState', 'InteractiveConsole', 'InterpreterInterface', 'StartServer',
+                 'bob']
+    username = input("Enter your username :")
+    if username in usernames:
+        print("Access granted")
+    else:
+        print("Access denied")
 
 
 def get_numbers():
