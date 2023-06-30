@@ -22,3 +22,4 @@ while state_code != "":
 # Once loop finishes, eg "" is entered, states are printed with correct formatting:
 for state_code, state_name in CODE_TO_NAME.items():
     print(f"{state_code} is {state_name}")
+
