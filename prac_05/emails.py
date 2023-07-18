@@ -17,8 +17,8 @@ def main():
 
 
 def get_name(email):
-    parts = email.split('@')[0].split('.')
-    name = ' '.join(parts).title()
+    address_details = email.split('@')[0].split('.')
+    name = ' '.join(address_details).title()
     return name
 
 
