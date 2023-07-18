@@ -1,15 +1,22 @@
+"""
+Word Occurrences
+Estimate: 35 minutes
+Actual:   42 minutes
+"""
+
+
 def main():
     def count_words(string):
-        word_counts = {}
+        word_to_frequency = {}
         words = string.split()
 
         for word in words:
-            if word in word_counts:
-                word_counts[word] += 1
+            if word in word_to_frequency:
+                word_to_frequency[word] += 1
             else:
-                word_counts[word] = 1
+                word_to_frequency[word] = 1
 
-        return word_counts
+        return word_to_frequency
 
     user_input = input("Enter a string: ")
     word_counts = count_words(user_input)
