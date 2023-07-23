@@ -1,3 +1,8 @@
+"""
+Estimated time taken: 220 minutes
+Actual time taken: ~300 minutes
+"""
+
 import datetime
 from project import Project
 
