@@ -36,5 +36,27 @@ def main():
     for guitar in guitars:
         print(guitar)
 
+    name = input("Enter the name of the guitar (or 'exit' to stop): ")
+    while name != "":
+        if name.lower() == 'exit':
+            break
+        year = input("Enter the year of manufacture: ")
+        cost = input("Enter the cost of the guitar: ")
+        guitar = Guitar(name, year, cost)
+        guitars.append(guitar)
+        name = input("Enter the name of the guitar (or leave blank to stop): ")
+        # Open the file for writing (this will overwrite the existing data)
+    out_file = open('guitars.csv', 'w')
+    # Write the header
+    out_file.write("Name,Year,Cost\n")
+    # Write each guitar's data to the file
+    for guitar in guitars:
+        out_file.write(f"{guitar.name},{guitar.year},{guitar.cost}\n")
+    # Close the file after writing
+    out_file.close()
 
-main()
+    print("Data has been updated and saved to guitars.csv.")
+
+
+if __name__ == "__main__":
+    main()
