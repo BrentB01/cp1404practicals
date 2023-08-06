@@ -9,10 +9,13 @@ def test_calculate_fare():
 
     fare = taxi.get_fare()
 
-    expected_fare = 48.78
+    expected_fare = 48.80
 
     if fare == expected_fare:
+        print(f"Expected fare: {expected_fare}, Actual fair: {fare}")
         print("All tests passed!")
+    else:
+        print(f'Tests failed (f"Expected fare: {fare}, Actual fair: {expected_fare}')
 
 
 if __name__ == '__main__':
