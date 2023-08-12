@@ -1,0 +1,4 @@
+# Reflection of CP1404
+1. The accuracy of my estimates regarding code completion definitely improved as the subject progressed. This was mainly as I was able to identify what code would take longer to implement correctly. Along with this I slowly figured out my personal strengths and weaknesses. Overall however my estimates still end up being quite in accurate. This mainly happens because I will encounter unexpected issues that take long to solve. As I improve so will my time estimates.
+2. Reviewing code essentially lets you see another persons thought process. Sometimes reviewing someone's code would refresh my memory on some content that I forgot about. This helped me alot as I could then use it in my code.
+3. Regarding the practical tasks; I think they are a great way to learn code in particular. There is not much at all that I would change I thought the instructions were clear and the practicals weren't too long or tedious.
